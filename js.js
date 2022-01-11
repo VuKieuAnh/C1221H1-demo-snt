@@ -20,3 +20,18 @@ function demo3() {
         x++;
     }
 }
+function vehinhchunhat(){
+    for (let i = 5; i >0; i--) {
+        // viết 5-i dấu -
+        for (let j = 0; j < (5-i); j++) {
+            document.writeln("&ensp;")
+        }
+        //viết i dấu *
+        for (let j = 0; j < i; j++) {
+            document.writeln("*");
+        }
+
+        // viết dấu xuống dòng
+        document.writeln("<br>")
+    }
+}
